@@ -1,0 +1,97 @@
+{
+  "cardapio": {
+    "nome_estabelecimento": "Pizzaria",
+    "categorias": [
+      {
+        "id": "pizzas",
+        "nome": "Pizzas",
+        "emoji": "🍕",
+        "produtos": [
+          {
+            "id": "pizza_001",
+            "nome": "Calabresa",
+            "descricao": "Molho, mussarela, calabresa e cebola.",
+            "preco": 39.90,
+            "moeda": "BRL",
+            "imagem": "https://source.unsplash.com/300x200/?pizza,calabresa",
+            "categoria": "pizzas"
+          },
+          {
+            "id": "pizza_002",
+            "nome": "4 Queijos",
+            "descricao": "Mussarela, provolone, parmesão e catupiry.",
+            "preco": 44.90,
+            "moeda": "BRL",
+            "imagem": "https://source.unsplash.com/300x200/?pizza,quatroqueijos",
+            "categoria": "pizzas"
+          }
+        ]
+      },
+      {
+        "id": "esfirras",
+        "nome": "Esfirras",
+        "emoji": "🥟",
+        "produtos": [
+          {
+            "id": "esfirra_001",
+            "nome": "Esfiha de Carne",
+            "descricao": "Esfiha assada com recheio de carne temperada.",
+            "preco": 6.00,
+            "moeda": "BRL",
+            "imagem": "https://source.unsplash.com/300x200/?esfiha,carne",
+            "categoria": "esfirras"
+          },
+          {
+            "id": "esfirra_002",
+            "nome": "Esfiha de Queijo",
+            "descricao": "Massa leve com recheio cremoso de queijo.",
+            "preco": 5.50,
+            "moeda": "BRL",
+            "imagem": "https://source.unsplash.com/300x200/?esfiha,queijo",
+            "categoria": "esfirras"
+          }
+        ]
+      },
+      {
+        "id": "bebidas",
+        "nome": "Bebidas",
+        "emoji": "🥤",
+        "produtos": [
+          {
+            "id": "bebida_001",
+            "nome": "Coca-Cola 2L",
+            "descricao": "Refrigerante tradicional 2L.",
+            "preco": 9.90,
+            "moeda": "BRL",
+            "imagem": "https://source.unsplash.com/300x200/?coca-cola,drink",
+            "categoria": "bebidas"
+          },
+          {
+            "id": "bebida_002",
+            "nome": "Guaraná 1L",
+            "descricao": "Refrigerante de guaraná natural.",
+            "preco": 7.90,
+            "moeda": "BRL",
+            "imagem": "https://source.unsplash.com/300x200/?guarana,drink",
+            "categoria": "bebidas"
+          },
+          {
+            "id": "bebida_003",
+            "nome": "Coca-Cola lata",
+            "descricao": "Refrigerante tradicional 350ML.",
+            "preco": 4.00,
+            "moeda": "BRL",
+            "imagem": "https://source.unsplash.com/300x200/?coca-cola,drink",
+            "categoria": "bebidas"
+          }
+        ]
+      }
+    ],
+    "resumo": {
+      "total_categorias": 3,
+      "total_produtos": 6,
+      "preco_minimo": 5.50,
+      "preco_maximo": 44.90
+    }
+  }
+}
