@@ -83,6 +83,15 @@
             "moeda": "BRL",
             "imagem": "https://source.unsplash.com/300x200/?coca-cola,drink",
             "categoria": "bebidas"
+          },
+           {
+            "id": "bebida_003",
+            "nome": "Coca-Cola lata",
+            "descricao": "Refrigerante tradicional 350ML.",
+            "preco": 4.00,
+            "moeda": "BRL",
+            "imagem": "https://source.unsplash.com/300x200/?coca-cola,drink",
+            "categoria": "bebidas"
           }
         ]
       }
